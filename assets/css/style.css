@@ -82,3 +82,21 @@ a:visited {
 .contact_form {
     font-size: 1.5rem;
 }
+
+@media screen and (max-width: 980px){
+
+}
+
+@media screen and (max-width: 768px){
+
+}
+
+@media screen and (max-width: 640px){
+    #header_full {
+        background-color: #ffffff;
+        border-bottom: 2px solid #cccccc;
+        height: 100px;
+    }
+
+    
+}
