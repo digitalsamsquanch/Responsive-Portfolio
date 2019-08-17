@@ -1,0 +1,84 @@
+#header_full {
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    height: 100px;
+    position: relative;
+}
+
+body {
+    background-image: url("../images/concrete_wall_2.png");
+    margin: 0px;
+}
+
+heading hr {
+    margin-top: 0%;
+}
+
+#header_indented {
+    width: 960px;
+    margin: auto 20% 0% 20%;
+    position: absolute;
+    bottom: 20px;
+}
+
+#header_name {
+    font-size: 2rem;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #ffffff;
+    background: #4aaaa5;
+    padding: 20px;
+}
+
+#main_area {
+    width: 960px;
+    margin: 10px 20% auto 20%;
+    color: #777777;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#fam_pic {
+    float: left;
+    height: 200px;
+    width: auto;
+    border-radius: 8px;
+}
+
+#header_links {
+    float: right;
+    position: absolute;
+    bottom: -20px;
+    right: -40px;
+    color: #4aaaa5;
+}
+
+footer {
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    height: 50px;
+    width: 100%;
+    color: #ffffff;
+    background-color: #666666;
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
+}
+
+footer span {
+    position: absolute;
+    bottom: 0px;
+}
+
+a:link {
+    color: #4aaaa5;
+}
+
+a:visited {
+    color: #FF886E;
+}
+
+.contact_form {
+    font-size: 1.5rem;
+}

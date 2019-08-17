@@ -1,0 +1,20 @@
+.item {
+    width: 30%;
+    display: inline-block;
+    margin-top: 2rem;
+}
+.caption {
+    text-align: center;
+    line-height: 2em;
+    border: 2px solid #dddddd;
+}
+
+.polaroid > img{
+    max-width: 100%;
+    height: auto;
+}
+
+.polaroid {
+    background: #ffffff;
+    padding: 1rem;
+}
